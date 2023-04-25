@@ -42,16 +42,15 @@ spec:
             failureThreshold: 3
           env:
             - name: INGESTION_URL
-              value: >-
-                https://azuremonitorws01-ddbx.centralus-1.metrics.ingest.monitor.azure.com/dataCollectionRules/dcr-db181f80771f4fc8bb00bc54f36c6f4c/streams/Microsoft-PrometheusMetrics/api/v1/write?api-version=2021-11-01-preview
+              value: ''
             - name: LISTENING_PORT
               value: '8081'
             - name: IDENTITY_TYPE
               value: aadApplication
             - name: AZURE_CLIENT_ID
-              value: 7100ab4e-b540-46e6-8a2b-a35a0932c875
+              value: ''
             - name: AZURE_TENANT_ID
-              value: 72f988bf-86f1-41af-91ab-2d7cd011db47
+              value: ''
             - name: CLUSTER
               value: ARO-DOMAIN
             - name: AZURE_CLIENT_CERTIFICATE_PATH
