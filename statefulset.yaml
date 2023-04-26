@@ -52,9 +52,9 @@ spec:
             - name: AZURE_TENANT_ID
               value: ''
             - name: CLUSTER
-              value: ARO-DOMAIN
+              value: ARO-METRICS
             - name: AZURE_CLIENT_CERTIFICATE_PATH
-              value: /mnt/secrets-store/metrics-certificate
+              value: /mnt/secrets-store/nameofyourcertificate.pfx
           ports:
             - name: rw-port
               containerPort: 8081
